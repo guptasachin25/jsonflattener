@@ -1,0 +1,18 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "Interview Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --recursive src/test/ --timeout 180000"
+  },
+  "author": "Sachin Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.20",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "readline": "^1.3.0"
+  }
+}
