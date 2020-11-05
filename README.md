@@ -1,4 +1,4 @@
-# jsonflattener
+# JSON Flattener
 Library to flatten given JSON object
 
 # System Requirements
