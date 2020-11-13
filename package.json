@@ -4,7 +4,7 @@
   "description": "Interview Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha --recursive src/test/ --timeout 180000"
+    "test": "nyc mocha src/test/*.js --timeout 1000"
   },
   "author": "Sachin Gupta",
   "license": "ISC",

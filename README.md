@@ -7,7 +7,14 @@ Library to flatten given JSON object
 # How to Install 
 - Download using `git clone https://github.com/guptasachin25/jsonflattener.git`
 - `npm install`
-- `node index.js`
+
+# How to Run
+- `cat data/input.json | node flattener.js`
+Assumption: JSON input will be correct
+
+# How to start CLI 
+- `node cli.js`
+Note: CLI only accepts single line json input
 
 # Run Tests 
 - `npm test`
